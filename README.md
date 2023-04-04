@@ -3,7 +3,11 @@
 
 
 1 - Dê um dotnet restore
+<br/>
 2 - Dê um dotnet build
+<br/>
 3 - Dê um dotnet run
+<br/>
 OBS: Caso não ache o projecto use o comando do dotnet run com a flag --project e o nome do project ou o caminho dele.
+<br/>
 Exemplo: dotnet run --project nomeDoProjeto
