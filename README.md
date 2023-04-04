@@ -9,6 +9,6 @@
 <br/>
 3 - Dê um dotnet run
 <br/>
-OBS: Caso não ache o projeto use o comando do dotnet run com a flag --project e o nome do project ou o caminho dele.
+OBS: Caso gere um erro dizendo que não achou o projeto use o comando do dotnet run com a flag --project e o nome do project ou o caminho dele.
 <br/>
 Exemplo: dotnet run --project nomeDoProjeto
