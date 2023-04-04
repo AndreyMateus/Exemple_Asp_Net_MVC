@@ -1,0 +1,22 @@
+﻿@{
+    // Acessando a propriedade Layout e dizendo que não quero utilizar os Layout da próprio engine do aspnet.
+    Layout = null;
+}
+
+<html>
+<body>
+        <div>
+            <p>Olá @ViewData["nome"] </p>
+            <!-- Podemos criar tanto um comentário em HTML -->
+            <!-- Aqui estamos fazendo um IF para verificar se o valor/nome do passado pelo usuário tem o tamanho mais que 10 letras.-->
+            @if (ViewData["nome"].ToString().Length > 10)
+            {
+               <p>Seu nome é Grande @ViewData["nome"]</p>
+            }
+            else
+            {
+                <p> Seu nome é pequeno. @ViewData["nome"]</p>
+            }
+        </div>
+    </body>
+</html>

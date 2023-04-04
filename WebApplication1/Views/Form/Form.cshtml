@@ -1,0 +1,10 @@
+﻿<!-- Criando um formulário -->
+<!-- passando o nome da ROTA do método do Controoler e o TIPO de ação que será realizada. -->
+<form action="/form/panel/dados" method="POST">
+    <!-- Colocando o tipo/type do INPUT, o tipo do input é tipo uma classe, pois cada tipo conterá propriedades diferentes no preenchimento do campo. -->
+    <!-- o  nome/name do INPUT é para podermos recuperar oque o usuário digitou, para sabermos qual campo é cada um, damos nomes diferentes a cada.-->
+    <input type="text" name="nome"/>
+    <input type="email" name="email"/>
+    <!-- Quando você clicar no botão, o botão IMPLICITAMENTE/AUTOMATICAMENTE irá fazer o METHOD definido para a ACTION definida, no nosso caso ele irá ENVIAR/POST para a ACTION/MÉTODO, e após o ENVIO dos dados a ACTION será executada AUTOMATICAMENTE-->
+    <button>Enviar</button>
+</form>
