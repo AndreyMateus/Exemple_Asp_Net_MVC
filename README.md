@@ -11,4 +11,4 @@
 <br/>
 OBS: Caso gere um erro dizendo que não achou o projeto use o comando do dotnet run com a flag --project e o nome do project ou o caminho dele.
 <br/>
-Exemplo: dotnet run --project nomeDoProjetoOuCaminhoRelativoCompleto
+Exemplo: dotnet run --project nomeDoProjetoOuCaminhoCompleto
